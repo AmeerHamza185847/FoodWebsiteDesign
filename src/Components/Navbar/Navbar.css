@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.navBar{
+    height: 15vh;
+    background-color: rgb(231, 245, 244);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoContainer img{
+    width: 120px;
+    height: 110px;
+}
+.navBar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1em;
+}
+
+.navBar ul li a {
+    font-size: 1.3rem;
+    /* color: rgb(44, 15, 190); */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.active{
+    color: rgb(220, 37, 37);
+}

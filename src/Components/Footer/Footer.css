@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer{
+    padding: 40px 40px;
+    background-color: rgb(231, 245, 244);
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.footerContent{
+    text-align: center;
+    padding: 20px;
+}
+
+.footerContent p a{
+    font-style: italic;
+    color: blue;
+}
